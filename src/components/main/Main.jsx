@@ -40,13 +40,13 @@ export default function Main() {
           <section className="section3">
             <div className="row">
               <p className="Naushniki">Наушники</p>
-              <Card />
+                <Card />
             </div>
           </section>
           <section className="section4">
             <div className="row">
               <p className="BesprovodniyiNaushniki">Беспроводные наушники</p>
-              <Card />
+              <Card />  
             </div>
           </section>
         </div>

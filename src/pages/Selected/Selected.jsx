@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import KorzinkaBosh from "../../components/img/KorzinkaBosh.png";
 import { Link } from "react-router-dom";
-
 import Map from "../../components/img/Map.png";
 import { Collapse } from 'antd';
 import Footer from "../../components/footer/Footer";
@@ -78,14 +77,14 @@ export default function Selected() {
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                   {/* <img src={} alt="" />
-                <img src={} alt="" />
-                <h1></h1>
+                <img src={} alt="" /> */}
+                <h1> </h1>
                 <p></p>
-                <p></p> */}
+                <p></p> 
 
-                  {/* <button onClick={()=> setPriceProduct(priceProduct - 1)}>minus</button>
-<button onClick={()=> setPriceProduct(priceProduct + 1)}>plus</button>
-<p>{priceProduct}</p> */}
+                  <button>minus</button>
+<button >plus</button>
+<p></p>
                 </div>
                 <div
                   className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"

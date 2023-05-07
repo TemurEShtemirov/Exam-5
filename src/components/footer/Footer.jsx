@@ -24,7 +24,7 @@ export default function Footer() {
               </li>
               <li className="nav-item">
                 <li className="nav-link" to="/selected" />
-                Корзина
+                <Link to="/selected" className="text-dark"> Корзина</Link>
               </li>
               <li className="nav-item">
                 <li className="nav-link" to="/contact" />

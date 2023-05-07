@@ -1,33 +1,44 @@
 import React, { useState, useEffect } from "react";
 import "../../components/css/Card.css";
-
-
+import Star from "../../components/img/star.png"
+import Like from "../../components/img/Like.png"
 
 const Card = () => {
   
   const [data, setData] = useState([]);
-  const [filter, setFilter] = useState(data);
-  const [loading, setLoading] = useState(false);
+  // const [filter, setFilter] = useState(data);
+  const [loading, setLoading] = useState(true);
   let componentMounted = true;
 
-
+  
+  
+  
+  useEffect(() => {
+    fetch("https://dummyjson.com/products").then(response => response.json()).then(data => {
+      setLoading(false)
+      setData(data.products)
+    })
   
 
-  useEffect(() => {
-    const getProduct = async () => {
-      setLoading(true);
-      const response = await fetch("https://dummyjson.com/products");
-      if (componentMounted) {
-        setData(await response.clone().json());
-        setFilter(await response.json());
-        setLoading(false);
-        console.log(filter);
-      }else{
-        componentMounted = false ;
-      };
-    };
-    getProduct();
+    // const getProduct = async () => {
+    //   setLoading(true);
+    //   const  =  fetch();
+    //   console.log(response);
+    //   if (componentMounted) {
+    //     setData(await response.clone().json());
+    //     setFilter(await response.json());
+    //     setLoading(false);
+    //     console.log(filter);
+        
+    //   }else{
+    //     componentMounted = false ;
+    //   };
+    // };
+    // getProduct();
+
   }, []);
+
+  console.log(data);
   const Loading = () => {
     return (
       <>
@@ -41,7 +52,7 @@ const Card = () => {
   const Showproducts = () => {
     return (
       <>
-        {filter.map((products) => {
+        {data.map((products) => {
           return (
             <>
               <div
@@ -61,7 +72,14 @@ const Card = () => {
                     {products.category}
                   </p>
                   <p className="card-text">{products.price} $</p>
-                 
+                  <img src={Star} alt={Star} />
+                  <p style={{
+                    marginLeft:"40px",
+                    marginTop:"-15px"
+                  }}>{products.rating}</p>
+                  <a href="">
+<img src={Like} alt={Like} />
+                  </a>
                 </div>
               </div>
             </>
