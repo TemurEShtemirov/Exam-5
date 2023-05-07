@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import Logo from "../img/Logo.png";
 import Instagram from "../img/Instagram.png";
-import VK from "../img/Vk.png";
+import VK from "../img/vk.png";
 import Telegram from "../img/Telegram.png";
 import WhatsApp from "../img/Whatsapp.png";
 import Lang from "../img/Lang.png";
