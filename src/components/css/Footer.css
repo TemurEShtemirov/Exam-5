@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.instagram {
+    margin-left: 18.2px;
+    margin-top: 30.56px;
+}
+
+.vk {
+    margin-top: 35.99px;
+}
+
+.telegram {
+    margin-left: 17.6px;
+    margin-top: 30.56px;
+    margin-right: 17.9px;
+}
+
+.whatsapp {
+    margin-right: 26.99px;
+    margin-top: 30.56px;
+}
+
+.footer {
+    width: 1110px;
+        height: 157px;
+        background-color: #FFFFFF;
+        box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius:  30px 30px 0px 0px;
+    margin-top: 50px;
+    margin-left: 147px;
+    margin-right: 183px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

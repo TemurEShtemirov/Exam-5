@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orderringP {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C27;
+    margin-left: 70px;
+     /* margin-top: 50px; */
+}
+
+.selectCity {
+    background: #D6D6D6;
+    border-radius: 15px;
+    width: 368.87px;
+    height: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8E8E8E;
+    padding-left:25px;
+    margin-left:100px;
+}
+
+.citySelect {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #8E8E8E;
+
+}
+
+.manhattan {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #8E8E8E;
+
+}
+
+.boston {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #8E8E8E;
+
+}
+
+.LosAngeles {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #8E8E8E;
+}
+
+.California {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #8E8E8E;
+
+}
+
+.Street {
+    background: #D6D6D6;
+    border-radius: 15px;
+    width: 368.87px;
+    height: 45px;
+    margin-top: 20px;
+    padding-left: 25px;
+    border: solid #8E8E8E;
+    margin-left:100px;
+}
+.Dom{
+    width: 164.06px;
+    height: 45px;
+    background: #D6D6D6;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8E8E8E;
+    padding-left: 20px;
+    border: solid #8E8E8E;
+    margin-top: 10px;
+    margin-left:100px;
+}
+.Podeyzd{
+      width: 164.06px;
+      height: 45px;
+      background: #D6D6D6;
+      border-radius: 15px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #8E8E8E;
+      padding-left: 20px;
+      border: solid #8E8E8E;
+      margin-top: 10px;
+      margin-left: -80px;
+}
+.colOrdering{
+    width: 445px;
+    padding-top: 20px;
+    height: 513px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.dostavka {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.adres{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.lakatsiya{
+    margin-top: 200px;
+    margin-left: -410px;
+}
+.map3{
+    margin-left: 100px;
+}
+.div1{
+    width: 444.44px;
+    padding-top: 20px;
+    height: 155px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.col2Ordering{
+    margin-left: 850px;
+    margin-top: 100px;
+    margin-bottom: -700px;
+}
+.colOrdering{
+    margin-top: 100px;
+}
+.div2{
+    width: 444.44px;
+    padding-top: 20px;
+    height: 155px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.p4OrderCol2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.VisaP{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.CreditCardP{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #838383;
+
+}
+.card{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.OrderingRow{
+    margin-top: 100px;
+}
+.Cardlar{
+      width: 164.06px;
+      height: 25px;
+      background: #D6D6D6;
+      border-radius: 15px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #8E8E8E;
+      padding-left: 20px;
+      border: solid #8E8E8E;
+      margin-top: -10px;
+      /* margin-left:100px */
+}
+.div3{
+     width: 441px;
+     padding-top: 20px;
+     height: 124px;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+     border-radius: 30px;
+     margin-left: 50px;
+     margin-top: 10px;
+     padding-left: 20px;
+     padding-bottom: 20px;
+}
+.Nomer{
+      width: 404.06px;
+      height: 45px;
+      background: #D6D6D6;
+      border-radius: 15px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #8E8E8E;
+      padding-left: 20px;
+      border: solid #8E8E8E;
+      margin-top: 10px;
+      /* margin-left:100px; */
+}
+.knopka{
+    width: 447px;
+    height: 45px;
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(67, 216, 84, 0.25);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 13px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.footerOrdering{
+    margin-top: 100px;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 10px;
+    height: 584px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 260px;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 20;
+    padding-left: 50px;
+
+}
+
+.ourOffice {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.addres {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.etaj {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #838383;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.location {
+    margin-left: 20px;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+
+.whatsappContact {
+    padding-top: 29.1px;
+    padding-left: 29.1px;
+    /* width: 39.41px;
+height:39.41px ; */
+    padding-bottom: 28.49px;
+    padding-right: 28.49px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.vkContact {
+    padding-top: 30.31px;
+    padding-bottom: 30.31px;
+    /* width: 53.96px;
+    height: 36.38px; */
+    padding-left: 21.83px;
+    padding-right: 21.22px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.instagramContact {
+    padding-left: 29.1px;
+    padding-top: 29.1px;
+    padding-bottom: 28.49px;
+    /* width: 39.41px;
+    height: 39.41px; */
+    padding-right: 28.49px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.telegramContact {
+    padding-left: 24.86px;
+    padding-top: 24.25px;
+    /* width: 48.5px;
+     height: 48.5px; */
+    padding-bottom: 24.25px;
+    padding-right: 23.64px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.media {
+    margin-top: 20px;
+}
+
+.Alyo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
